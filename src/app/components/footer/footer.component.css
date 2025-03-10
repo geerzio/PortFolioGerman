@@ -1,0 +1,10 @@
+footer {
+  height: 56px;
+}
+
+.social-linkedin{
+  a:hover{
+  transform: scale(1.2);
+  
+  }  
+}

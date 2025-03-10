@@ -1,0 +1,12 @@
+<!--<p style="color: white">{{ title }}</p>
+<app-works [workData]="work"></app-works>-->
+
+<div class="container trabajos">
+  <h3 class="section-title">
+    {{ work }}
+  </h3>
+  <app-works
+    *ngFor="let workDataParent of workList"
+    [workData]="workDataParent"
+  ></app-works>
+</div>

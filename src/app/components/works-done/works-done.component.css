@@ -1,0 +1,12 @@
+.trabajos{
+    background-color: var(--secondColor);
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 1.5rem;*/
+}
+
+.section-title{
+    color: azure;
+}
