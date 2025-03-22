@@ -25,7 +25,7 @@ export class WelcomeComponent implements OnInit , OnDestroy {
 
   ngOnInit(): void {
     this.intervalId = setInterval(() => {
-      this.currentIndex = (this.currentIndex + 1) % 3;  // Cambia según el número de imágenes
+      this.currentIndex = (this.currentIndex + 1) % 4;  // Cambia según el número de imágenes
     }, 5000);  
   }
 
